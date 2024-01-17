@@ -1,0 +1,75 @@
+:root{
+    --bg  :  #0a3d62;
+    --font : #82ccdd;
+} 
+.navbar--{
+    width: 100%;
+    height: 70px;
+    background:#3498db;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.597) ;
+    align-items: center;
+}
+.logo--{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menus--{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.logo-name{
+    color: white;
+    font-size: 5vh;
+    font-family:constantia;
+}
+
+.Link--{
+    /* width:50px; */
+    /* height: 50px; */
+    color: white;
+}
+.Link--res{
+    font-size: 1.2rem;
+
+    color: white;
+}
+.logoimg{
+    mix-blend-mode :darken ;
+}
+.responsivemenu{
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+}
+.toggleMenu{
+   width: 100%;
+    height: 70px;
+    background:#0c3b5d;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(162, 161, 161, 0.597) ;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .Link--res{
+        display: none;
+    }
+    .navbar-- {
+        justify-content: center;
+    }
+
+}
